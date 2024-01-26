@@ -25,10 +25,11 @@ handleClick2 = () => {
     }); 
 };
 
-handleClick3 = () => {
+handleReset3 = () => {
     this.setState({
-        count: this.state.count === 0,
+        count:(0),
         isActive: !this.state.isActive,
+      
         
     }); 
 };
@@ -37,16 +38,20 @@ handleClick3 = () => {
   render() {
     
     return (
+        <>
+        <h1>Counter App</h1>
     <div className='container'>
      <button className='increment' onClick={this.handleClick}>+</button>
-     <button className='reset' onClick={this.handleClick3}>Reset</button>
+     <button className='reset' onClick={this.handleReset3}>Reset</button>
      <button className='decrement' onClick={this.handleClick2}>-</button>
      <p>{this.state.count}
      {this.state.isActive}</p>
     </div>
+    </>
     );
       
   }
 }
 
 export default ClassComponent;
+

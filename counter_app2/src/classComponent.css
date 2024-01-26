@@ -1,19 +1,27 @@
 
-.container {
+body {
     width: 100%;
-    height: 100px;
+    height: 50px;
     border: 1px solid black;
+    background-color: rgb(238, 236, 152);
 
 }
-
 
 .increment {
  
     background-color: green;
     color: white;
+    padding: 10px 30px;
+  
 }
 
 .decrement {
     background-color: red;
     color: white;
+    padding: 10px 30px;
+
+}
+
+.reset {
+    margin: 10px;
 }

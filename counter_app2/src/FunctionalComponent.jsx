@@ -1,8 +1,11 @@
 import React from 'react'
 
-const FunctionalComponent = ({testNumber}) => {
-  return <div>FunctionalComponent-- {testNumber}</div>;
-  
-};
+const FunctionalComponent = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
 
 export default FunctionalComponent

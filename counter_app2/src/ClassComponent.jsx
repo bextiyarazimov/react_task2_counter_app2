@@ -20,8 +20,8 @@ handleClick = () => {
 
 handleClick2 = () => {
     this.setState({
-        count: this.state.count -1,
-        isActive: !this.state.isActive,
+        count: this.state.count >0 ? this.state.count -1 : 0,
+        
     }); 
 };
 
